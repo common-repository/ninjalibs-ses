@@ -1,0 +1,21 @@
+{
+    "name": "ninjalibs/ninjalibs-ses",
+    "description": "Ninja Libs AWS SES Plugin",
+    "type": "library",
+    "require": {
+        "aws/aws-sdk-php": "^3.158"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Ninja Libs",
+            "email": "info@ninjalibs.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "libs/"
+        ]
+    },
+    "minimum-stability": "stable"
+}
